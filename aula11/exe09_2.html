@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Condiçoes</title>
+</head>
+<body>
+    <h1>Nacionalidade</h1>
+    Pais em que nasceu: <input type="text" name="txtp" id="txtp">
+    <input type="button" value="Submeter" onclick="clicar()">
+    <div id="res"></div>
+    <script>
+        
+         var resp = document.getElementById("res")
+        function clicar(){
+            var pais = document.getElementById("txtp").value
+            if (pais == "Brasil"){
+                resp.innerHTML = '<p>Legal! Você é <strong>Brasileiro</strong>!</p>'
+            }
+            else {
+                resp.innerHTML = '<p>Legal! Você é <strong>estrangeiro</strong>!</p>'
+            }
+        }
+    </script>
+</body>
+</html>
