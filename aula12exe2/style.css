@@ -1,0 +1,37 @@
+body{
+    background-color: darkgray;
+    font-family:Arial, Helvetica, sans-serif;
+}
+section{
+    background-color: white;
+    width: 500px;
+    min-height: 200px;
+    margin: auto;
+    border-radius: 10px;
+}
+h1{
+    text-align: center;
+}
+.info{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+#nasc{
+    margin-top: 10px;
+}
+#verif{
+    margin-top: 10px;
+}
+#parag{
+    padding-top: 10px;
+    padding-left: 20px;
+}
+#img{
+    padding: 20px;
+    text-align: center;
+}
+footer{
+    text-align: center;
+    font-size: 0.8em;
+    font-style: italic;
+}
