@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analisador de Numeros</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <p>Analisador de Números</p>
+    </header>
+    <section>
+        <div>
+        <p> Digite um numero (1 a 100) : <input type="number" name="num" id="num"></p>
+        <input type="button" value="Adicionar" id="ad" onclick="add()">
+        </div>
+        <div>
+        <select name="resul" id="resul" size="10">
+            <option value="natela" id="natela">Digite um número acima</option>
+        </select>
+        <input id="ver" type="button" value="Verificar" onclick="verif()">
+        </div>
+        <p id="resultado"></p>
+    </section>
+    
+    <footer><p>CursoemVideo</p></footer>
+
+    <script src="ambiente.js"></script>
+    
+</body>
+</html>

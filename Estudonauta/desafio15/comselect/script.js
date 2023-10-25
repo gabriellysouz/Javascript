@@ -10,4 +10,4 @@ function calcular(){
         tab.appendChild(item)
         c++
     }
-}
+} 
