@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+        const nome = prompt('Digite seu nome completo: ')
+        let nomecomp = nome.replace(/ /g,'')
+        document.body.innerHTML += `<p>Seu nome completo é <strong>${nome}</strong></p>`
+        document.body.innerHTML += `<p>Seu nome completo tem <strong>${nomecomp.length}</strong> letras</p>`
+        document.body.innerHTML += `<p>A segunda letra do seu nome é <strong>${nome[1].toUpperCase()}</strong></p>`
+        document.body.innerHTML += `<p>O primeiro indice da letra A é:  <strong>${nome.indexOf('a', 0)}</strong></p>`
+        document.body.innerHTML += `<p>O ultimo indice da letra A é: <strong>${nome.lastIndexOf('a', nome.length -1)}</strong> </p>`
+        document.body.innerHTML += `<p>As ultimas tres letras do seu nome sao <strong>${nome.slice(-3)}</strong></p>`
+        document.body.innerHTML += `<p>As palavras do seu nome sao <strong>${nome.split(' ')}</strong></p>`
+        document.body.innerHTML += `<p>Seu nome em letra maiuscula  é <strong>${nome.toUpperCase()}</strong></p>`
+        document.body.innerHTML += `<p>Seu nome em letra miniscula  é <strong>${nome.toLowerCase()}</strong></p>`
+    </script>
+</body>
+</html>
