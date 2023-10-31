@@ -1,0 +1,18 @@
+body{
+    background-color: rgb(178, 177, 177);
+}
+
+section{
+    width: 400px;
+    min-height: 200px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.titulo{
+    display: inline-block;
+    width: 80px;
+}

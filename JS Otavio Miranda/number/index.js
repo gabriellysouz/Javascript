@@ -12,3 +12,4 @@ console.log(`O numero 2.5 inteiro é inteiro? ${Number.isInteger(num2)}`)
 console.log(`A conta "10 x ola" tem resultado "not a number"? ${Number.isNaN(temp)}`)
 console.log(`A conta "10 x 2.5" tem resultado "not a number"? ${Number.isNaN(temp2)}`)
 
+
