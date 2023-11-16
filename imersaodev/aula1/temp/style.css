@@ -1,0 +1,54 @@
+body{
+    background-image: url(imagens/ceu.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 98%;
+    height: 97.5vh;
+    font-family: monospace;
+}
+
+section{
+    background-color: white;
+    width: 400px;
+    height: 300px;
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 80px;
+    font-size: 1.2em;
+}
+
+#resul{
+    border: 1px solid black;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+h1{
+    text-align: center;
+    font-size: 3em;
+    color: rgb(180, 180, 180);
+    margin-top: 80px;
+}
+input{
+    height: 30px;
+    border-radius: 4px;
+    width: 170px;
+}
+select{
+    height: 30px;
+    width: 237px;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+#botao{
+    cursor: pointer;
+    border-radius: 4px;
+    width: 70px;
+}
+#botao:hover{
+    border: 1px solid black;
+}
