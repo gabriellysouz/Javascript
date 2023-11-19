@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ranking</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Ranking Alura</h1>
+
+    <input type="text" name="nomejogador"  id="nomejogador" placeholder="Nome">
+    <input type="button" id="botaoAdd" value="Adicionar Jogador">
+    <p id="mensagemErro"></p>
+
+    <table>
+        <thead>
+            <tr>
+                <td>Nome</td>
+                <td>Vitórias</td>
+                <td>Empates</td>
+                <td>Pontos</td>
+                <td colspan="3">Açoes</td>
+            </tr>
+        </thead>
+        <tbody id="tabela">
+        </tbody>
+    </table>
+    <input type="button" id="botaoFim" value="Fim do Jogo" onclick="fimDoJogo()">
+    <input type="button" id="botaoReset" value="Resetar Jogo" onclick="resetarJogo()">
+    <input type="button" id="botaoApagarPontos" value="Limpar Pontos" onclick="limparPontos()">
+    <p id="resulranking"></p>
+
+    <script src="script.js"></script>
+</body>
+</html>
