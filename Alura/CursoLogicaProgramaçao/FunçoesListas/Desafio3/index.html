@@ -11,7 +11,7 @@
     <main>
         <section>
            <h2>Calcular IMC</h2>
-            <p>Altura: </p><input type="number" name="altura" id="altura">
+            <p>Altura (m): </p><input type="number" name="altura" id="altura">
             <p>Peso: </p><input type="number" name="peso" id="peso">
             <input type="button" value="check" class="botao" onclick="calcularImc()">
             <p id="resulIMC"></p>
@@ -20,7 +20,7 @@
         <section>
             <h2>Calcular Area Retangular</h2>
             <p>Altura (cm): </p><input type="number" name="alturacm" id="alturacm">
-            <p>Largura: </p><input type="number" name="largura" id="largura">
+            <p>Largura (cm): </p><input type="number" name="largura" id="largura">
             <input type="button" value="check" class="botao" onclick="calcularAreaRetangular()">
             <p id="resulAreaRet"></p>
         </section>
@@ -53,10 +53,6 @@
             <p id="resulTabuada"></p>
         </section>
     </main>
-    <script>
-        function calcularImc(){
-            console.log('lala')
-        } 
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>
