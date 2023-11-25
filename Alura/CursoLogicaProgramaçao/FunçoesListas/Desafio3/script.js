@@ -49,3 +49,31 @@ function circulo(r){
     let pi = 3.14
     return pi * (r * r)
 }
+
+function calcularTabuada(){
+    let n1 = Number(document.getElementById('numTabuada').value)
+    let mensagem = `Segue a tabuada do numero ${n1}:`
+    exibirResul('resulTabuada', mensagem)
+    tabuada(n1)
+}
+
+function tabuada(n){
+    let tabu = document.getElementById('tabu')
+    for (i = 0; i < 11; i++){
+        tabu.innerHTML += `${n} x ${i} = ${n*i}<br>`
+    }
+}
+
+function calcularFatorial(){
+    let n = Number(document.getElementById('numFatorial').value)
+    let mensagem = `O fatorial de ${n} é ${fatorial(n)}`
+    exibirResul('resulFatorial', mensagem)
+}
+
+function fatorial(n){
+    let fat = 1
+    for (i=1; i <= n; i++){
+        fat *= i
+    }
+    return fat
+}
