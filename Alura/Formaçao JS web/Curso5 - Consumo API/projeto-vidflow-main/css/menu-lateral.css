@@ -1,0 +1,28 @@
+
+.menu__lateral-container{
+    display: flex;
+    flex-direction: column;
+    min-width: 230px;
+    margin-top: 5%;
+}
+
+.menu__lateral-lista-titulo{
+    text-transform: uppercase;
+    text-align: left;
+    padding: 1em 2em;
+    font-weight: 500;
+}
+
+.menu__lateral-lista-item{
+    display: flex;
+    padding: 1em 0 1.5em 2em;
+    gap: 1em;
+
+}
+
+.borda{
+    border-bottom: 1px solid black;
+    margin: 1em 1em;
+    
+}
+

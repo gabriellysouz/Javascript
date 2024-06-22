@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comunidade</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/stylepage2.css">
+</head>
+
+<body>
+    <header class="cabecalho__container">
+        <div class="cabecalho__container-logo">
+            <a href="index.html"><img src="img/Logo.svg" alt="logo plataforma"></a>
+        </div>
+        <div class="cabecalho__container-pesquisa">
+            <input class="cabecalho__container-pesquisa-campo" type="text" placeholder="Busque por algo">
+        </div>
+        <div class="cabecalho__container-perfil">
+            <img src="img/foto-perfil.svg" alt="foto perfil">
+            <p class="cabecalho__container-perfil-imagem-nome">Harry</p>
+        </div>
+    </header>
+    <div class="corpo__container">
+        <div class="corpo__container-menu">
+            <h3 class="corpo__container-menu-titulo">MENU</h3>
+            <ul>
+                <li>
+                    <a href="index.html" class="corpo__container-menu-link">
+                        <img src="img/Icon-editor-hover.svg" alt="icone editor">
+                        <p class="link-titulo-desativo">Editor de código</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="page2.html" class="corpo__container-menu-link">
+                        <img src="img/Icon-comunidade.svg" alt="icone editor">
+                        <p>Comunidade</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="container_texto-crie-projeto"></div>
+        <section class="cards__container-principal">
+          <!-- <div class="card__container">
+                <div class="editor-codigo__container">
+                    <code name="editor-codigo-comun" id="editor-codigo-comun">const pluckDeep = key => obj => key.split('.').reduce((accum, key) => accum[key], obj)
+
+const compose = (...fns) => res => fns.reduce((accum, next) => next(accum), res)
+
+const unfold = (f, seed) => {
+  const go = (f, seed, acc) => {
+    const res = f(seed)
+    return res ? go(f, res[1], acc.concat([res[0]])) : acc
+  }
+  return go(f, seed, [])
+}
+                    </code>
+                </div>
+                <div class="detalhes__container">
+                    <div class="detalhes__container-titulo-descriçao">
+                        <div class="container-titulo">
+                            <a href="index.html">Titulo do projeto</a>
+                            <img class="icone-3circulos" src="img/ellipsis-vertical-solid.svg" alt="">
+                        </div>
+                        <p>Essa é a descrição do meu projeto.</p>
+                    </div>
+                    <div class="detalhes__container-curtida-perfil">
+                        <div class="detalhes__container-curtida">
+                            <img src="img/Component.svg" alt="">
+                            <img src="img/Component 12.svg" alt="">
+                        </div>
+                        <div class="detalhes__container-perfil">
+                            <img src="img/foto-perfil.svg" alt="">
+                            <p>@Harry</p>
+                        </div>
+                    </div>
+                </div>
+            </div>-->
+        </section>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <script type="module" src="js/scriptpage2.js"></script>
+        
+</body>
+
+</html>

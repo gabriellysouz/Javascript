@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/highlight.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <title>AllDev</title>
+</head>
+<body>
+    <header class="cabecalho__container">
+        <div class="cabecalho__container-logo">
+            <img src="img/Logo.svg" alt="logo plataforma">
+        </div>
+        <div class="cabecalho__container-pesquisa">
+            <input class="cabecalho__container-pesquisa-campo" type="text" placeholder="Busque por algo">
+        </div>
+        <div class="cabecalho__container-perfil">
+            <img src="img/foto-perfil.svg" alt="foto perfil">
+            <p class="cabecalho__container-perfil-imagem-nome">Harry</p>
+        </div>
+    </header>
+    <div class="corpo__container">
+        <div class="corpo__container-menu">
+            <h3 class="corpo__container-menu-titulo">MENU</h3>
+            <ul>
+                <li>
+                    <a href="#" class="corpo__container-menu-link">
+                        <img src="img/Icon-editor.svg" alt="icone editor">
+                        <p>Editor de código</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="page2.html" class="corpo__container-menu-link">
+                        <img src="img/Icon-hover.svg" alt="icone editor">
+                        <p class="link-titulo-desativo">Comunidade</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="corpo__container-editor-codigo">
+            <div class="codigo-wrapper">
+                <code id="editor-codigo" class="editor-codigo hljs" contenteditable="true"></code>
+            </div>
+            
+            <input type="button" class="editor-codigo-botao" value="Visualizar com highlight">
+        </div>
+
+        <div class="corpo__container-detalhes">
+            <div class="corpo__container-detalhes-nome">
+                <h3 class="corpo__container-detalhes-titulo">SEU PROJETO</h3>
+                <input class="corpo__container-detalhes-input" id="nome-projeto" type="text" placeholder="Nome do seu projeto">
+                <textarea name="descricao-projeto" id="descricao-projeto" class="corpo__container-detalhes-input"  placeholder="Descrição do seu projeto"></textarea>
+            </div>
+            <div class="corpo__container-detalhes-personali">
+                <p class="corpo__container-detalhes-titulo">PERSONALIZAÇÃO</p>
+                <select name="personalizacao-linguagem" id="personalizacao-linguagem" class="corpo__container-detalhes-input">
+                    <option value="javascript">Javascript</option>
+                    <option value="HTML">HTML</option>
+                    <option value="CSS">CSS</option>
+                </select>
+                <select name="personalizacao-cor" id="personalizacao-cor" class="corpo__container-detalhes-input">
+                    <option value="azul">Azul claro</option>
+                    <option value="laranja">Laranja</option>
+                    <option value="verde">Verde</option>
+                    <option value="rosa">Rosa</option>
+                </select>
+
+                <input type="button" class="botao-salvar-projeto" value="Salvar projeto">
+                <input type="button" class="botao-salvar-projeto botao-salvar-alteracao esconder" value="Salvar alterações">
+            </div>
+            
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script type="module" src="js/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+    
+</body>
+</html>
